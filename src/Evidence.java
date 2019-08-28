@@ -5,6 +5,7 @@ public class Evidence {
     private String text;
     private String branch master;
     private String text2;
+    private String text3;
 
     public Evidence(String serialNo, String cTime, String mValue, String devType) {
         this.serialNo = serialNo;
