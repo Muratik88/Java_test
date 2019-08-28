@@ -3,6 +3,7 @@ public class Evidence {
     private String mValue;
     private String devType;
     private String text;
+    private String text2;
 
     public Evidence(String serialNo, String cTime, String mValue, String devType) {
         this.serialNo = serialNo;
