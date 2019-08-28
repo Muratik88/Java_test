@@ -60,8 +60,8 @@ public class ReadMeterEvi {
 
 
         for (Evidence item:evidenceList){
-//            Evidence evidence1 = new Evidence(item.getSerialNo(), item.getmValue(), item.getDevType(), item.getcTime());
-//            dbConnect.addEvidence(evidence1);
+            Evidence evidence1 = new Evidence(item.getSerialNo(), item.getmValue(), item.getDevType(), item.getcTime());
+            dbConnect.addEvidence(evidence1);
             System.out.println(item.getSerialNo());
         }
         System.out.println("Процесс окончен");
