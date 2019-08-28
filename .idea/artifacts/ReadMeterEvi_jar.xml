@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ReadMeterEvi:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ReadMeterEvi_jar</output-path>
+    <root id="archive" name="ReadMeterEvi.jar">
+      <element id="module-output" name="ReadMeterEvi" />
+      <element id="extracted-dir" path="C:/sqlite/sqlite-jdbc-3.27.2.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
